@@ -1,0 +1,105 @@
+body {
+    font-family:monospace;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    margin-right: 45%;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+p{
+    background-color: white;
+    padding: 10px;
+    width: 40%; 
+   text-align: center;
+    border-radius: 5px;
+    border: 2px solid #afafaf;
+    font-weight: 600;
+
+}
+.Group{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: start;
+    gap: 112px;
+    margin-left: 63px;
+}
+.group{
+   
+    margin-bottom: 5%;
+    width: 100%;
+}
+.group2{
+    margin-top: 35px;
+    width: 100%;
+
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(80, 0, 155);
+
+}
+.cancel{
+    background-color: rgb(215, 11, 11);
+
+}
+.cancel:hover{
+    background-color: rgb(164, 0, 0);
+
+}
+@media (max-width : 920px) {
+    .Group{
+        gap: 0px;
+        margin: auto;
+    }
+}
+@media (max-width : 768px) {
+    .Group{
+        display: block;
+    }
+    button{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+}
